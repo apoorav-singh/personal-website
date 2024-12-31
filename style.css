@@ -18,7 +18,12 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 5px;
 }
 
 nav ul {
@@ -48,6 +53,20 @@ section {
 
 section h2 {
     margin-top: 0;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.download-btn:hover {
+    background: #0056b3;
 }
 
 /* Footer */
